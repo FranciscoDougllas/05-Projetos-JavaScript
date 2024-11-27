@@ -1,0 +1,51 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+    background: linear-gradient(black, #747373, black);
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #e2e6f4;
+    filter: drop-shadow(0 0 10px);
+}
+.pokedex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.pokedex img{
+    width: 20%;
+    filter: drop-shadow(0 10px 15px #252b30);
+}
+.pokedex h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: bold;
+    filter: drop-shadow(0 10px 10px #000);
+}
+
+h1 {
+    text-align: center;
+}
+
+h1::before {
+    content: url("../../public/favicon36x36.png");
+    vertical-align: middle;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}

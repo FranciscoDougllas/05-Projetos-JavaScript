@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#principal{
+    border: 2px solid #ccc;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid #ccc;
+}
+
+#jogador,
+#computador{
+    border: 2px solid;
+}
+
+#jogador img{
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+}
+

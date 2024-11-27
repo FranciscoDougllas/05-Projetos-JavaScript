@@ -1,0 +1,12 @@
+ /* Estilos gerais da página */
+ body {
+    margin: 10px auto;
+    overflow: hidden;
+    background-color: #1c1c1c; /* Cor de fundo escura para contraste com o jogo */
+  }
+
+  canvas {
+    display: block;
+    background-color: #286047; /* Cor de fundo do canvas para o campo de jogo */
+    border: 5px solid #ffffff; /* Borda branca ao redor do canvas */
+  }

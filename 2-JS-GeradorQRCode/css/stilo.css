@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Helvetica;
+}
+
+body{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+#container{
+    margin: 20px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    height: auto;
+    color: #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px #9c9db8;
+    background: linear-gradient(45deg, #2d2d2d, #777777, #2d2d2d);
+
+}
+#qr-header {
+    margin: 10px;
+}
+#qr-header h1{
+    margin-bottom: 10px;
+}
+#qr-form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#qr-form input, button{
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+}
+button{
+    background: linear-gradient(#9b8d7b, #867967, #716453);
+}
+button:hover{
+    background-color: green;
+    color: #fff;
+    box-shadow: 0 0 10px;
+    transition: all .2s;
+}
+
+#qr-code img{
+    width: 100%;
+}
+
+
+/* Ocultando o Display */
+#qr-code{
+    display: none;
+}

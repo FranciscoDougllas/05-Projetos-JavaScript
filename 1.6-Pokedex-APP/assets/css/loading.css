@@ -1,0 +1,28 @@
+.loading::before, .loading::after {
+    content: "⌛";
+    vertical-align: middle;
+    border: 1px solid;
+    padding: 20px;
+}
+
+.loading {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+    animation: loading 2s infinite ease-in-out;
+}
+
+@keyframes loading {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

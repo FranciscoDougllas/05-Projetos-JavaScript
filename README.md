@@ -1,2 +1,2 @@
-# 05-Projetos-JavaScript
- 05-Projetos-JavaScript
+# Projetos_JavaScript
+ Projetos Desenvolvidos em JavaScript
