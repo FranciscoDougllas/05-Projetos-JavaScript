@@ -1,12 +1,36 @@
- /* Estilos gerais da página */
- body {
-    margin: 10px auto;
-    overflow: hidden;
-    background-color: #1c1c1c; /* Cor de fundo escura para contraste com o jogo */
-  }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
 
-  canvas {
-    display: block;
-    background-color: #286047; /* Cor de fundo do canvas para o campo de jogo */
-    border: 5px solid #ffffff; /* Borda branca ao redor do canvas */
-  }
+#principal{
+    border: 2px solid #ccc;
+}
+
+#container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid #ccc;
+}
+
+#jogador,
+#computador{
+    border: 2px solid;
+}
+
+#jogador img{
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+}
+

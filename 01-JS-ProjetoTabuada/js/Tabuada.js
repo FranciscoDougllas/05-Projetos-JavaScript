@@ -2,6 +2,7 @@ const saida = document.getElementById("saida-dados");
 const limp = document.getElementById("limp");
 const completa = document.getElementById("complet");
 const tbComplet = document.getElementById("tb-complet");
+const output = document.getElementById("output");
 
 const mais = document.querySelector("#soma");
 const menos = document.querySelector("#sub");
@@ -10,6 +11,8 @@ const mult = document.querySelector("#mult");
 
 mais.addEventListener("click", (e) => {
     e.preventDefault();
+    output.style.display = "flex"
+    tbComplet.style.display = "flex"
     let num1 = parseInt(document.querySelector("#number1").value);
     let num2 = parseInt(document.querySelector("#number2").value);
     saida.innerHTML = "";
@@ -22,6 +25,8 @@ mais.addEventListener("click", (e) => {
 
 menos.addEventListener("click", (e) => {
     e.preventDefault();
+    output.style.display = "flex"
+    tbComplet.style.display = "flex"
     let num1 = parseInt(document.querySelector("#number1").value);
     let num2 = parseInt(document.querySelector("#number2").value);
     saida.innerHTML = "";
@@ -34,6 +39,8 @@ menos.addEventListener("click", (e) => {
 
 divid.addEventListener("click", (e) => {
     e.preventDefault();
+    output.style.display = "flex"
+    tbComplet.style.display = "flex"
     let num1 = parseInt(document.querySelector("#number1").value);
     let num2 = parseInt(document.querySelector("#number2").value);
     saida.innerHTML = "";
@@ -46,6 +53,8 @@ divid.addEventListener("click", (e) => {
 
 mult.addEventListener("click", (e) => {
     e.preventDefault();
+    output.style.display = "flex"
+    tbComplet.style.display = "flex"
     let num1 = parseInt(document.querySelector("#number1").value);
     let num2 = parseInt(document.querySelector("#number2").value);
     saida.innerHTML = "";
@@ -58,6 +67,8 @@ mult.addEventListener("click", (e) => {
 
 completa.addEventListener("click", (e) => {
     e.preventDefault();
+    output.style.display = "flex"
+    tbComplet.style.display = "flex"
     let num1 = parseInt(document.querySelector("#number1").value);
     let num2 = parseInt(document.querySelector("#number2").value);
     saida.innerHTML = "";

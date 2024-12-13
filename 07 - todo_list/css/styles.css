@@ -8,9 +8,9 @@
 }
 
 body {
-  background-image: url("../img/bg.jpg");
   background-position: center;
   background-size: cover;
+  background-color: #2b3b52;
 }
 
 button {
